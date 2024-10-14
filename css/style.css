@@ -53,9 +53,9 @@ nav .navbar-nav .nav-item{
 }
 
 header{
-    background-image:url("/assets/imgs/banner.png?v=1") ; 
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image:url("https://png.pngtree.com/thumb_back/fw800/background/20240216/pngtree-american-city-buliding-wall-art-image_15627102.jpg") ; 
+    background-repeat: repeat-x;
+    background-position: cover;
     object-fit: cover;
 }
 
