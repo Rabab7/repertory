@@ -53,7 +53,7 @@ nav .navbar-nav .nav-item{
 }
 
 header{
-    background-image:url("/assets/imgs/banner.png") ; 
+    background-image:url("/assets/imgs/banner.png?v=1") ; 
     background-repeat: no-repeat;
     background-position: center;
     object-fit: cover;
