@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>weather</title>
+</head>
+<body>
+
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top bg-dark ">
+    <div class="container ms-auto px-5 py-4">
+      <div class="nav-body d-flex mt-2  px-5 ">
+        <a class="" href="#">
+          <img src="./assets/imgs/logo2x.png" alt="" class="weatherLogo">
+        </a>
+        <div class="ms-2 navbody">
+          <h1 class=" text-capitalize ">
+            <a href="./index.html">weather</a>
+          </h1>
+          <p class="" >
+            <a href="./index.html">tagline goes here</a>
+          </p>
+        </div>
+      </div>
+      <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars fs-5 text-white rounded-0"></i>         
+     </button>
+      <div class="collapse navbar-collapse mt-0" id="navbarSupportedContent ">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 px-5">
+          <li class="nav-item">
+            <a class="active" aria-current="#header" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="  " aria-current="#" href="#">News</a>
+          </li>
+          <li class="nav-item">
+            <a class=" " aria-current="#" href="#">Live Cameras</a>
+          </li>
+          <li class="nav-item">
+            <a class="  " aria-current="#" href="#">Photos</a>
+          </li>
+          <li class="nav-item">
+            <a class="  " aria-current="#" href="#">Contact</a>
+          </li>
+      </div>
+    </div>
+  </nav>
+
+
+<!-- main -->
+  <div class=" bg-dark pos pb-0 ">
+    <header class="  pt-0 ">
+      <section class="">
+        <div class="container d-flex justify-content-center align-items-center min-vh-100  ">
+              <form class="w-75 d-flex justify-content-center align-items-center " >
+                <input type="search" class="locationInput form-control bg-dark border border-1 border-dark rounded-5"  placeholder="Find your location..." aria-label="Location">
+                <button class="findButton btn btn-primary border border-1 border-primary rounded-5 " type="button">Find</button>
+              </form>
+        </div>
+      </section>
+    </header>
+  
+  
+    <main class=" px-5 pb-sm-4 pb-md-4 ">
+      <section>
+        <div class="container min-vh-100 ">
+          <div class="row weather-container  ">
+             <div class="  col-lg-4  col-md-12 col-sm-12 "> 
+              <div class="today-weather inner shadow pb-5 w-100  text-white">
+                  
+                </div>
+              </div>
+              
+               <div class=" col-lg-4 col-md-12 col-sm-12 "> 
+                <div class=" tomorrow-weather inner shadow pb-5 w-100   text-white">
+                  </div>
+                </div>
+
+
+                <div class="  col-lg-4 col-md-12 col-sm-12 "> 
+                  <div class="day-after-tomorrow inner shadow pb-5 w-100 text-white">
+                      
+                    </div>
+                  </div> 
+  
+            </div>
+           
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- footer -->
+
+  <footer class="py-5 mb-0">
+    <section>
+      <div class="container px-5 py-2 ">
+        <div class="d-flex  flex-sm-column flex-md-column  flex-lg-row justify-content-between align-items-center ">
+          <form class=" w-75 d-flex justify-content-center align-items-center " >
+            <input type="search" class=" footerInput form-control bg-dark border border-1 border-dark rounded-5"  placeholder="Enter your email to Subscribe..." aria-label="Subscribe">
+            <button class="footerButton btn btn-primary border border-1 border-primary rounded-5 " type="button">Subscribe</button>
+          </form>
+          <div class="mt-sm-4 mt-md-4 mb-md-3 social-media  ">
+            <ul class="links d-flex justify-content-between align-items-center gap-4 ">
+              <li>
+                <i class="fa-brands fa-facebook-f"></i>
+              </li>
+              <li>
+                <i class="fa-brands fa-twitter"></i>
+              </li>
+              <li>
+                <i class="fa-brands fa-google-plus"></i>
+              </li>
+              <li>
+                <i class="fa-brands fa-pinterest"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <p class="mt-4 text-white ps-2">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+      </div>
+    </section>
+  </footer>
+
+
+
+
+
+  
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>

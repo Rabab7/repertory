@@ -1,0 +1,133 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+
+
+nav a 
+{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    cursor: pointer;
+}
+
+ul li{
+    list-style: none;
+    
+}
+
+nav .weatherLogo{
+    width: 64px;
+    height: 38px;
+}
+
+nav .navbody h1
+{
+    font-size: medium;
+}
+
+nav .navbody p{
+    font-size: 9px;
+}
+
+nav .navbar-nav a 
+{
+    font-size: small;
+    padding: 4px 10px;
+    border-radius:10px;
+   
+}
+
+a.active{
+    color: blue;
+    border: 1px blue solid;
+    
+}
+
+
+
+
+nav .navbar-nav .nav-item{
+    margin-right: 15px;
+}
+
+header{
+    background-image:url("/assets/imgs/banner.png") ; 
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+}
+
+.locationInput
+{
+    color: white !important;
+    font-size: small;
+    padding: 17px 25px;
+    margin-bottom: 70px
+}
+    
+form input::placeholder{
+    color: lightslategray !important;
+    font-size: small;
+}  
+
+
+.findButton{
+    margin-left: -110px;
+    margin-top: -70px;
+    padding: 10px 35px;
+}
+
+footer{
+    background-color:#262936;
+}
+
+.footerInput{
+    color: white !important;
+    font-size: small;
+    padding: 17px 20px;
+}
+
+.footerButton{
+    margin-left: -150px;
+    padding: 10px 35px;
+}
+
+
+
+.links i{
+    padding: 9px 10px;
+    background-color:#000000b1;
+    border-radius:20px;
+    color: #0D92F4;
+}
+
+.links i:hover{
+    background-color:#0D92F4;
+    color: white;
+}
+
+footer p{
+    font-size: small;
+    font-weight: 100;
+}
+
+.inner{
+    background-color:#2f3645;
+    min-height: 390px;
+    
+}
+
+main .row{
+    margin-top: -200px;
+}
+
+main .tomorrow-weather{
+    background-color:#262936;
+}
+
+.weather-header{
+    background-color:#1501010b;
+}
+
